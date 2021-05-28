@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <UapAppxPackageBuildMode>SideloadOnly</UapAppxPackageBuildMode>
+    <AppxShowAllApps>False</AppxShowAllApps>
+    <AppxBuildConfigurationSelection>arm</AppxBuildConfigurationSelection>
+    <PackageOptionalProjectsInIdeBuilds>False</PackageOptionalProjectsInIdeBuilds>
+    <Source>Q:\UWP-Package-Installer-master\UWPPackageInstaller\A2W.bmp</Source>
+    <SmallTileSource>Q:\UWP-Package-Installer-master\UWPPackageInstaller\A2W.bmp</SmallTileSource>
+    <MediumTileSource>Q:\UWP-Package-Installer-master\UWPPackageInstaller\A2W.bmp</MediumTileSource>
+    <WideTileSource>Q:\UWP-Package-Installer-master\UWPPackageInstaller\A2W.bmp</WideTileSource>
+    <LargeTileSource>Q:\UWP-Package-Installer-master\UWPPackageInstaller\A2W.bmp</LargeTileSource>
+    <AppIconSource>Q:\UWP-Package-Installer-master\UWPPackageInstaller\A2W.bmp</AppIconSource>
+    <SplashScreenSource>Q:\UWP-Package-Installer-master\UWPPackageInstaller\A2W.bmp</SplashScreenSource>
+    <PackageLogoSource>Q:\UWP-Package-Installer-master\UWPPackageInstaller\A2W.bmp</PackageLogoSource>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <DeviceId>30f105c9-681e-420b-a277-7c086ead8a4e</DeviceId>
+    <UseEmulator>true</UseEmulator>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DeviceId>30f105c9-681e-420b-a277-7c086ead8a4e</DeviceId>
+    <UseEmulator>true</UseEmulator>
+  </PropertyGroup>
+</Project>

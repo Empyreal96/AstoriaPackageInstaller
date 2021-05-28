@@ -6,7 +6,7 @@ This will allow users to install Android converted apps for Project Astoria, and
 
 There will be [issues](#Issues) as this is my first attempt at UWP development. Work in progress!
 
-<img src="wp_ss_20210528_0001.png" alt="Screenshot" style="zoom: 25%;" /><img src="wp_ss_20210528_0002.png" alt="Installing" style="zoom: 25%;" /> <img src="wp_ss_20210528_0003.png" alt="Installed" style="zoom: 25%;" />
+<img src="wp_ss_20210528_0001.png" alt="Screenshot" style="zoom: 10%;" />
 
 
 
